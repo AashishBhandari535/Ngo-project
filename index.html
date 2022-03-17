@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+  <!-- css starts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  
+  <title>NGO</title>
+</head>
+
+<body onload="loading()">
+  <div id="loader">
+
+  </div>
+
+  <!-- header starts -->
+  <header>
+    <div class="container py-4">
+      <div class="row py-4">
+        <div class="col-lg-3 social-medias d-flex justify-content-center justify-content-lg-start align-items-center">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-flickr"></i></a></li>
+            <li><a href="#"><i class="fas fa-rss"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-9  d-flex  justify-content-center flex-wrap">
+          <div class="content me-5 d-flex">
+            <div class="icon"><i class="fas fa-envelope-square"></i></div>
+            <div class="subcontent">
+              <h2>info@giving.com</h2>
+              <p>Our email</p>
+            </div>
+          </div>
+          <div class="content me-5 d-flex">
+            <div class="icon"><i class="fas fa-phone-square-alt"></i></div>
+            <div class="subcontent">
+              <h2>800 516 3290</h2>
+              <p>9:00 A.M. - 5:00 P.M.</p>
+            </div>
+          </div>
+          <div class="donate d-flex align-items-center"><a href="#"><span> DONATE</span></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- sliding navbar starts -->
+  <section>
+  <div id="slidingnavbar">
+    <i class="fas fa-times" id="cancel"></i>
+    <ul>
+      <li><a href="#" >Home</a></li>
+
+      <li><a href="#">Blog</a></li>
+
+      <li><a href="#">Features</a></li>
+
+      <li><a href="#">Projects</a></li>
+
+      <li><a href="#">Pages</a></li>
+
+      <li><a href="#">Gallery</a></li>
+
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</section>
+ <!-- carousel starts -->
+  <section class="slider">
+    <div class="box" id="box">
+      <nav class="navbar navbar-expand-lg navbar-light  p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="	https://html.modernwebtemplates.com/giving/images/logo-dark.png"
+              alt="logo"></a>
+          <!-- <button id="btn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button> -->
+          <button id="btn" class="navbar-toggler" type="button" 
+           aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li><a href="#" style="color: #EA3A3C;">Home</a></li>
+
+              <li><a href="#">Blog</a></li>
+
+              <li><a href="#">Features</a></li>
+
+              <li><a href="#">Projects</a></li>
+
+              <li><a href="#">Pages</a></li>
+
+              <li><a href="#">Gallery</a></li>
+
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div> 
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100" data-bs-interval="5000">
+          <img src="	https://html.modernwebtemplates.com/giving/images/slide01.jpg" class="h-100 img-fluid" alt="">
+          <div class="carousel-caption ">
+            <div  class=" animate__animated animate__fadeInUp">
+              <h1>Save the Life</h1>
+              <p>Help People for their needs all over the world! Donate</p>
+              <div class="donate text-center"><a href="#"><span> DONATE</span></a></div>
+           </div>
+          </div>
+        </div>
+        <div class="carousel-item h-100 " data-bs-interval="3000">
+          <img src="	https://html.modernwebtemplates.com/giving/images/slide02.jpg" class="h-100 img-fluid" alt="">
+          <div class="carousel-caption  ">
+            <div  class=" animate__animated animate__fadeInUp">
+              <h1>Save the Life</h1>
+              <p>Help People for their needs all over the world! Donate</p>
+              <div class="donate text-center"><a href="#"><span> DONATE</span></a></div>
+           </div>
+          </div>
+        </div>
+        <div class="carousel-item  h-100" data-bs-interval="3000">
+          <img src="	https://html.modernwebtemplates.com/giving/images/slide03.jpg" class="h-100 img-fluid" alt="">
+          <div class="carousel-caption  ">
+            <div  class=" animate__animated animate__fadeInUp">
+              <h1>Save the Life</h1>
+              <p>Help People for their needs all over the world! Donate</p>
+              <div class="donate text-center"><a href="#"><span> DONATE</span></a></div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- ngohelpertype starts -->
+  <section class="ngohelpertype">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-6 col-sm-6 col-lg-4 text-center">
+          <h2>.01 Donator</h2>
+          <div class="press">
+            <a href="#"><span>Learn More</span></a>
+          </div>
+          
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-4 text-center">
+          <h2>.02 Volunteer</h2>
+          <div class="press">
+            <a href="#"><span>Learn More</span></a>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-4 text-center">
+          <h2>.03 Adopter</h2>
+          <div class="press">
+            <a href="#"><span>Learn More</span></a>
+          </div>
+        </div>
+
+      </div>  
+    </div>
+  </section>
+  <!-- member section starts -->
+  <section class="member">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6" >
+          <h2 class="section_header">
+            Become our organization
+            <span class="text-uppercase" >member</span> and help people for their needs
+          </h2>
+          <p class="bottommargin_30">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+          <div class="Read d-flex align-items-center"><a href="#"><span>Read More</span></a></div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <img src="	https://html.modernwebtemplates.com/giving/images/person.png" class="img-fluid" alt="girl's pic">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cause section starts -->
+  <section class="cause">
+    <div class="container">
+      <h1 class="text-center">OUR <span style="color: #EA3A3C;">CAUSES</span></h1>
+      <div class="row justify-content-center">
+        
+        <div class=" col-lg-4 col-md-6">
+          <div class="counter">
+            <img src="https://html.modernwebtemplates.com/giving/images/causes/01.jpg" alt="">
+            <div class="common circle1">
+              <div class="bar"></div>
+              <div class="square"><span></span></div>
+            </div>
+          </div>
+          <div class="desc">
+            <h4>
+              <a href="#">HUNGER IN NIGERIA</a>
+            </h4>
+            <div class="progressbox">
+              <div class="progressbar1"></div>
+            </div>
+            <p class="fontsize_18 grey bottommargin_30">
+							$2300 donated <span class="horizontal-divider">/</span> <span class="highlight">$2000 to go</span>
+						</p>
+            <div class="donate d-flex justify-content-center"><a href="#"><span> DONATE</span></a></div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6">
+          <div class="counter">
+            <img src="https://html.modernwebtemplates.com/giving/images/causes/02.jpg" alt="">
+            <div class="common circle2">
+              <div class="bar"></div>
+              <div class="square"><span></span></div>
+            </div>
+          </div>
+          <div class="desc">
+            <h4>
+              <a href="#">STOP CHILD'S ILLITERACY</a>
+            </h4>
+            <div class="progressbox">
+              <div class="progressbar2"></div>
+            </div>
+            <p class="fontsize_18 grey bottommargin_30">
+							$2300 donated <span class="horizontal-divider">/</span> <span class="highlight">$2000 to go</span>
+						</p>
+            <div class="donate d-flex justify-content-center"><a href="#"><span> DONATE</span></a></div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-offset-3 col-md-6">
+          <div class="counter">
+            <img src="https://html.modernwebtemplates.com/giving/images/causes/03.jpg" alt="">
+            <div class="common circle3">
+              <div class="bar"></div>
+              <div class="square"><span></span></div>
+            </div>
+          </div>
+          <div class="desc">
+            <h4>
+              <a href="#">SCHOOL BUILDING</a>
+            </h4>
+            <div class="progressbox">
+              <div class="progressbar3"></div>
+            </div>
+            <p class="fontsize_18 grey bottommargin_30">
+							$2300 donated <span class="horizontal-divider">/</span> <span class="highlight">$2000 to go</span>
+						</p>
+            <div class="donate d-flex justify-content-center"><a href="#"><span> DONATE</span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- video section starts -->
+  <section class="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2 cola">
+        </div>
+        <div class="col-lg-6 colb order-lg-1">
+          
+          <h4> Helping children in Nigeria</h4>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <div class="progressbox">
+            <div class="progressbar">
+            </div>
+          </div>
+          <div class="donation">
+            <span class="big bold grey">
+							To Go <span class="highlight">$2150</span>
+							<span class="horizontal-divider">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</span>
+						</span>
+						<a href="#" >Donate</a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!-- volunteer section starts -->
+  <section class="volunteer">
+    <div class="container">
+      <div class="title text-center">  
+         <h2>OUR <span>VOLUNTEERS</span></h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        <div class="donate d-flex align-items-center justify-content-center"><a href="#"><span> Become a Volunteer</span></a></div>
+      </div>
+      <div class="row">
+        <div class="owl-carousel">
+          <div class="col-lg-4 ">
+            <div class="img text-center">
+              <img src="https://html.modernwebtemplates.com/giving/images/team/01.png" alt="">
+            </div>
+            <div class="content text-center">
+              <h4>John <span>Doe</span></h2>
+                <p>Head volunteer</p>
+                <a href="#"><div class="press">
+                  Learn More
+                </div></a>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="img text-center">
+              <img src="	https://html.modernwebtemplates.com/giving/images/team/02.png" alt="">
+            </div>
+            <div class="content text-center">
+              <h4>John <span>Doe</span></h2>
+                <p>Head volunteer</p>
+                <a href="#"><div class="press">
+                  Learn More
+                </div></a>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="img text-center">
+              <img src="	https://html.modernwebtemplates.com/giving/images/team/03.png" alt="">
+            </div>
+            <div class="content text-center">
+              <h4>John <span>Doe</span></h2>
+                <p>Head volunteer</p>
+                <a href="#"><div class="press">
+                  Learn More
+                </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- counter section starts -->
+  <section class="counter_up">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="text d-flex flex-column align-items-end">
+            <span class="count">150</span>
+            <span>SUCCESFUL PROJECTS</span>
+          </div>
+          <div class="icon">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="text d-flex flex-column align-items-end">
+            <span class="count">75 </span>
+            <span>VOLUNTEER REACHED</span>
+          </div>
+          <div class="icon">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="text d-flex flex-column align-items-end">
+            <span class="count">134</span>
+            <span>CHILDREN ADOPTED</span>
+          </div>
+          <div class="icon">
+            <i class="fas fa-home"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog starts -->
+  <section class="blog">
+    <div class="container">
+      <div class="title ">
+        <h2 class="text-center">FROM THE <span>BLOG</span></h2>
+      </div>
+      <div class="row  justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="image">
+            <div class="circlebox d-flex flex-column justify-content-center align-items-center"><p><strong>23</strong>th</p><p>april</p></div>
+            <img src="https://html.modernwebtemplates.com/giving/images/blog_post1.jpg" alt="africankidstanding">
+          </div>
+          <div class="content">
+            <div class="icons">
+              <i class="fas fa-heart"> 2</i>
+              <i class="fas fa-comment"> 5</i>
+            </div>
+            <h4>Missioners in charge</h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis um voluptatum deleniti atque</p>
+            <a href="#"><div class="press">
+              Learn More
+            </div></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="image">
+            <div class="circlebox d-flex flex-column justify-content-center align-items-center"><p><strong>23</strong>th</p><p>april</p></div>
+            <img src="https://html.modernwebtemplates.com/giving/images/blog_post2.jpg" alt="africankidstanding">
+          </div>
+          <div class="content">
+            <div class="icons">
+              <i class="fas fa-heart"> 2</i>
+              <i class="fas fa-comment"> 5</i>
+            </div>
+            <h4>Missioners in charge</h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis um voluptatum deleniti atque</p>
+            <a href="#"><div class="press">
+              Learn More
+            </div></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-offset-3 col-md-6">
+          <div class="image">
+            <div class="circlebox d-flex flex-column justify-content-center align-items-center"><p><strong>23</strong>th</p><p>april</p></div>
+            <img src="https://html.modernwebtemplates.com/giving/images/blog_post3.jpg" alt="africankidstanding">
+          </div>
+          <div class="content">
+            <div class="icons">
+              <i class="fas fa-heart"> 2</i>
+              <i class="fas fa-comment"> 5</i>
+            </div>
+            <h4>Missioners in charge</h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis um voluptatum deleniti atque</p>
+            <a href="#"><div class="press">
+              Learn More
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- input starts -->
+  <section class="feedback">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://html.modernwebtemplates.com/giving/images/boy.png" class="img-overlap" alt="rooneyjersey">
+        </div>
+        <div class="col-md-3">
+          <div class="col-md-3 col-sm-4">
+            <h2 class="section_header  ">
+              They
+              <br>
+              <strong class="text-uppercase">need</strong>
+              <br> your
+              <br>
+              <strong class="text-uppercase highlight">help...</strong>
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-5 ">
+          <form class="contact-form" method="post" action="./">
+            <div class="form-group">
+              <label for="name">Name
+               
+              </label>
+              <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email
+               
+              </label>
+              <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone
+               
+              </label>
+              <input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="donate d-flex align-items-center justify-content-end"><a href="#"><span> Send</span></a></div>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- subscribe starts -->
+  <section class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  text-center text-lg-start">
+          <h2 >
+            Subscribe for
+            <strong class="text-uppercase black">
+              <span class="grey">News</span>letter</strong>
+          </h2>
+        </div>
+        <div class="col-lg-6  d-flex justify-content-lg-end justify-content-center align-items-center">
+          <div class="form-group inline-block">
+            <input class="mailchimp_email form-control" name="email" type="email" placeholder="Email Address">
+          </div>
+          <div class="press">
+            <a href="#"><span>Subscribe</span></a>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contacts starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <img src="	https://html.modernwebtemplates.com/giving/images/logo-dark.png" alt>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis um voluptatum deleniti atque orrupti quos 
+          </p>
+          <div class="icon1">
+            <i class="fas fa-search"></i>
+            address:<span class="grey">12 Ave., New York</span>
+          </div>
+          <div class="icon2">
+            <i class="fas fa-envelope"></i>
+            email:<span class="grey">info@giving.com</span>
+          </div>
+          <div class="icon3">
+            <i class="fas fa-phone-alt"></i>
+            phone:<span class="grey">800 516 3290</span>
+          </div>
+          <div class="sociallinks">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-google"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-flickr"></i></a></li>
+              <li><a href="#"><i class="fas fa-rss"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4>From the blog</h4>
+          <div class="content d-flex">
+            <figure>
+              <img src="	https://html.modernwebtemplates.com/giving/images/recent_post1.jpg" alt>
+            </figure>
+              <div class="subcontent ">
+                <a href="#"><p>Missioners in charge</p></a>
+                <div class="icons d-flex align-items-center justify-content-between">
+                  <p><span> 23th arpil </span></p>
+                  <i class="fas fa-heart"> 2</i>
+                  <i class="fas fa-comment"> 5</i>
+                </div>
+              </div>
+            
+          </div>
+          <div class="content d-flex">
+            <figure>
+              <img src="	https://html.modernwebtemplates.com/giving/images/recent_post2.jpg" alt>
+            </figure>
+              <div class="subcontent ">
+                <a href="#"><p>Missioners in charge</p></a>
+                <div class="icons d-flex align-items-center justify-content-between">
+                  <p><span> 23th arpil </span></p>
+                  <i class="fas fa-heart"> 2</i>
+                  <i class="fas fa-comment"> 5</i>
+                </div>
+              </div>
+            
+          </div>
+          <div class="content d-flex">
+            <figure>
+              <img src="https://html.modernwebtemplates.com/giving/images/recent_post3.jpg" alt>
+            </figure>
+              <div class="subcontent ">
+                <a href="#"><p>Missioners in charge</p></a>
+                <div class="icons d-flex align-items-center justify-content-between">
+                  <p><span> 23th arpil </span></p>
+                  <i class="fas fa-heart"> 2</i>
+                  <i class="fas fa-comment"> 5</i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4>Our Happy faces</h4>
+        </div>
+        
+      </div>
+    </div>
+    <div class="copyright text-center container-fluid">
+      <p class="greylinks">Copyright 2016 - <a href="#">MW Templates</a>. All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- gototop -->
+  <a href="#">
+    <div class="goTop">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+  </a>
+  <!-- Optional JavaScript; choose one of the two! -->
+  
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="jquery.min.js"></script>
+  <script src="/js/program1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
