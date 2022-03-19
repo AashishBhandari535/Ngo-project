@@ -673,6 +673,7 @@ header .donate span:hover {
           box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
   background: url("	https://html.modernwebtemplates.com/giving/img/parallax/progress.jpg");
   background-attachment: fixed;
+  background-position:center;
 }
 
 .volunteer .container {
@@ -750,6 +751,7 @@ header .donate span:hover {
           box-shadow: inset 0 0 0 1000px rgba(238, 27, 8, 0.8);
   background: url("	https://html.modernwebtemplates.com/giving/img/parallax/progress.jpg");
   background-attachment: fixed;
+  background-position:center;
   color: white;
 }
 
